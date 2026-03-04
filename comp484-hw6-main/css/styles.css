@@ -1,26 +1,104 @@
-/* Color Palette
-# - color 1
-# - color 2
-# - color 3
-# - color 4
+/* =========================
+   Color Palette
+   =========================
+   Dark Navy:   #0B132B
+   Blue:        #1C2541
+   Steel Blue:  #3A506B
+   Mint:        #5BC0BE
+   Light:       #F7F7FF
 */
 
-/* Global styles 
-------------------------------------*/
 body {
-    /*background: lightblue;*/
+    margin: 0;
+    background: #F7F7FF;
+    font-family: "Merriweather", serif;
+    line-height: 1.6;
+    color: #111;
 }
 
+.container {
+    width: min(1000px, 90%);
+    margin: 0 auto;
+}
 
-/* Header & Footer 
-------------------------------------*/
+.section {
+    padding: 50px 0;
+}
 
+/* Header */
+.site-header {
+    background: #0B132B;
+    color: white;
+}
 
+.header-layout {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
 
-/* Work Experience
-------------------------------------*/
+.profile-pic {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #5BC0BE;
+}
 
+/* Typography */
+h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 2.8rem;
+    font-weight: 800;
+}
 
+h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.7rem;
+    font-weight: 600;
+}
 
-/* Education
-------------------------------------*/
+h3 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+.section-work {
+    background: #1C2541;
+    color: white;
+}
+
+.section-edu {
+    background: #3A506B;
+    color: white;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.08);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.muted {
+    opacity: 0.85;
+    margin: 5px 0;
+}
+
+.site-footer {
+    background: #0B132B;
+    color: white;
+    text-align: center;
+}
+
+.contact-links a {
+    color: #5BC0BE;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.contact-links a:hover {
+    text-decoration: underline;
+}
